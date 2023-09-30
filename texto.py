@@ -4,7 +4,7 @@ morse_a_texto_dict = {
     '-.-': 'K', '.-..': 'L', '--': 'M', '-.': 'N', '---': 'O', '.--.': 'P', '--.-': 'Q', '.-.': 'R', '...': 'S', '-': 'T',
     '..-': 'U', '...-': 'V', '.--': 'W', '-..-': 'X', '-.--': 'Y', '--..': 'Z',
     '-----': '0', '.----': '1', '..---': '2', '...--': '3', '....-': '4', '.....': '5', '-....': '6', '--...': '7', '---..': '8', '----.': '9',
-    '/': ' ',  # Usaremos una barra diagonal para representar espacios
+    ' ': ' ',  # Usaremos una barra diagonal para representar espacios
 }
 
 def morse_a_texto(morse):
@@ -22,7 +22,7 @@ def morse_a_texto(morse):
     return texto
 
 def main():
-    morse = input("Ingresa el código Morse que deseas convertir a texto (usa / para separar palabras y espacio entre letras): ")
+    morse = input("Ingresa el código Morse que deseas convertir a texto: ")
     resultado = morse_a_texto(morse)
     print("El código Morse traducido a texto es:", resultado)
 
