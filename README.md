@@ -14,6 +14,7 @@
 &nbsp;&nbsp;cd traductor-morze  
 &nbsp;&nbsp;pip install -r requirements.txt  
 
-&nbsp;2. **Ejecutar:**  
+&nbsp;2. **Ejecutar:**
+
 &nbsp;&nbsp;python archivoprincipal.py
 
