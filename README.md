@@ -10,7 +10,7 @@ Asegúrate de tener Python instalado en tu sistema. Puedes descargar Python desd
 
 1. **Clonar el Repositorio:**
 
-git clone https://github.com/aslskks/traductor-morze
+git clone [este_repositorio](https://github.com/aslskks/traductor-morze)
 cd traductor-morze
 pip install -r requirements.txt
 python morze.py
